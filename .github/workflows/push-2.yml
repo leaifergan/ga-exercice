@@ -1,0 +1,6 @@
+name: Except staging branch
+
+on:
+  push:
+    branches-ignore:
+      - "staging*"
